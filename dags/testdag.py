@@ -13,7 +13,7 @@ default_args = {
 dag = DAG(
     'airflow_monitoring_COPY_test',
     default_args=default_args,
-    description='liveness monitoring dag_TEST_COPY',
+    description='liveness monitoring dag_TEST_COPY_nowanazwa',
     schedule_interval=None,
     dagrun_timeout=timedelta(minutes=20))
 
